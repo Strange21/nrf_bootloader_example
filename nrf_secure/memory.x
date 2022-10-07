@@ -4,8 +4,8 @@ the SPM is set to boot a non-secure application from the FLASH origin below. */
 
 MEMORY
 {
-    FLASH : ORIGIN = 0x00000000, LENGTH = 256K
-    RAM : ORIGIN = 0x20000000, LENGTH = 64K
+    FLASH : ORIGIN = 0x00000000, LENGTH = 512K
+    RAM   : ORIGIN = 0x20000000, LENGTH = 64K
 }
 
 
